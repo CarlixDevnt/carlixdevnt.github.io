@@ -175,8 +175,8 @@ header table {
 }
 #about h1 {
     padding:5px 0px;
-    border-bottom:40px solid rgb(61, 255, 236);
-    width:6%;
+    border-bottom:4px solid rgb(61, 255, 236);
+    width:60%;
 }
 #photos {
     width:100%;
@@ -202,8 +202,8 @@ header table {
 }
 #team h1 {
     padding:5px 0px;
-    border-bottom:40px solid rgb(61, 255, 236);
-    width:8%;
+    border-bottom:4px solid rgb(61, 255, 236);
+    width:80%;
 }
 #contact {
     width:92vw;
