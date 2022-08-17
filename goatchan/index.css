@@ -176,7 +176,7 @@ header table {
 #about h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(61, 255, 236);
-    width:60%;
+    width:70%;
 }
 #photos {
     width:100%;
@@ -203,7 +203,7 @@ header table {
 #team h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(61, 255, 236);
-    width:80%;
+    width:40%;
 }
 #contact {
     width:92vw;
