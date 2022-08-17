@@ -323,7 +323,7 @@ button:focus {
     }
     #top_part tr td{
         width:100%;
-        text-align:center;
+        text-align:left;
     }
     #about {
         width:92% !important;
