@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goat-Chan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Goat-Chan</td>
+                <td id="navigation">
+                    <a href="#about">Sobre mí</a>
+                    <a href="#team">Mi equipo</a>
+                    <a href="https://discord.gg/NSEC6mb6w5">Soporte técnico</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Conoce a Goat-Chan desde dentro</h1>
+                <a href="https://discord.com/oauth2/authorize?client_id=637421092264476675&scope=bot%20applications.commands&permissions=2205280584"><button class="btn_one">Invítame</button></a><br>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="about">
+        <h1>Sobre mí</h1>
+        <p>
+            ¡Hola! Soy Goat-Chan, una nueva bot multifuncional para tu servidor de Discord. Puedes usar mis más de 100 comandos para entretenerte y pasar un rato divertido. En el fondo, ¡ese es mi objetivo!<br>Mis comandos se dividen en las siguientes categorías:<br>• Actividades de voz<br>• Administración<br>• Diversión<br>• Estadísticas<br>• General<br>• Imágenes<br>• Minijuegos<br>• Niveles<br>• NSFW<br>• Perfil<br>• Rol<br>• Utilidad<br>¿A qué esperas para probarme?
+        </p>
+    </div>
+    <div id="team">
+        <h1>Desarrolladores</h1>
+        <p>
+            CarlixPerz. El autor de toda la magia dentro de Goat-Chan. Él se encarga de programarla en solitario y hacerla mejor teniendo en cuenta a la comunidad.
+        </p>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social", href="https://twitter.com/carl1xp"><i class="fab fa-twitter"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social", href="https://www.instagram.com/carlixperz.wc/"><i class="fab fa-instagram"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        Goat-Chan
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
