@@ -88,7 +88,7 @@ header table {
     text-align:right;
 }
 #navigation a {
-    color:inherit;
+    color:rgb(0, 0, 0);
     text-decoration:none;
     padding:5px 10px;
     border-bottom:2px solid transparent;
@@ -175,7 +175,7 @@ header table {
 }
 #about h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(61, 255, 236);
+    border-bottom:40px solid rgb(61, 255, 236);
     width:6%;
 }
 #photos {
@@ -202,7 +202,7 @@ header table {
 }
 #team h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(61, 255, 236);
+    border-bottom:40px solid rgb(61, 255, 236);
     width:8%;
 }
 #contact {
