@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goat-Chan</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/960224658454626314/1009473121046245516/IMG_20220430_131747.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Goat-Chan</td>
+                <td id="navigation">
+                    <a href="../index.html">Inicio</a>
+                    <a href="https://discord.gg/NSEC6mb6w5">Soporte técnico</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="mainTitleCool" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Actualización 1.6</h1><br>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="about">
+        <h1>Lista de novedades</h1>
+        <ul>
+            <a href="#langs"><li>Sistema de lenguajes</li></a>
+            <a href="#stats"><li>Estadísticas</li></a>
+            <a href="#badges"><li>Sistema de logros</li></a>
+            <a href="#premium"><li>Suscripción Premium</li></a>
+            <a href="#profile"><li>Personalización de perfil de usuario</li></a>
+            <a href="#rp"><li>Sistema de Roleplay 2.0</li></a>
+        </ul>
+    </div>
+    <div id="langs">
+        <h1>Sistema de lenguajes</h1>
+        <p>
+            Queremos hacer de Goat-Chan un sistema de entretenimiento accesible para todo el mundo. Por ello, hemos decidido implementar un sistema de lenguajes a nuestra cibercabra favorita para que así pueda llegar a más usuarios.
+            La actualización traerá consigo los idiomas <b>Español</b>, <b>Gallego</b> e <b>Inglés (US)</b>, y aceptaremos traducciones de la comunidad que se implementarán en futuras actualizaciones!
+        </p>
+    </div>
+    <div id="stats">
+        <h1>Estadísticas</h1>
+        <p>
+            Sí, damas y caballeros, ahora Goat-Chan guardará estadísticas de uso para diferentes fines, como Rankings o logros.
+            <i>*Goat-Chan no guardará más información personal de la que le quieras dar</i>
+        </p>
+    </div>
+    <div id="badges">
+        <h1>Sistema de logros</h1>
+        <p>
+            Los logros son una forma de recompensar la actividad y el uso de nuestra querida Goat-Chan. Habrá dos tipos diferentes de logros: <b>Progresivos</b> y de <b>Obtención única</b>
+            Los logros <b>Progresivos</b> son aquellos que mejoran su nivel con el tiempo. Estos logros pueden tener entre 3 y 5 niveles, los cuales estarán representados por diferentes insignias.
+            Los logros de <b>Obtención única</b>, como su nombre indica, son logros que sólo se podrán obtener una vez.
+        </p>
+    </div>
+    <div id="premium">
+        <h1>Suscripción Premium</h1>
+        <p>
+            El fin del programa Partner ha llegado, y con él ha llegado una nueva suscripción de pago: Goat-Chan Premium.
+            Esta suscripción traerá los beneficios que el programa Partner otorgaba, además de un logro y un hueco importante en nuestro corazón.
+        </p>
+    </div>
+    <div id="profile">
+        <h1>Personalización de perfil de usuario</h1>
+        <p>
+            Con la nueva actualización podrás personalizar aspectos de tu perfil como tu apodo, color favorito, fecha de cumpleaños... para así desbloquear ciertas funciones especiales dentro del bot.
+        </p>
+    </div>
+    <div id="rp">
+        <h1>Sistema de Roleplay 2.0</h1>
+        <p>
+            Para la 1.6 habremos reformado el sistema de Roleplay de Goat-Chan, con tal de crear una gran experiencia para nuestros usuarios.
+            El nuevo sistema tendrá una economía interna que relacionará los comandos de interacción con el propio sistema de economía. Podrás usar comandos de interacción para ganar dinero (o perderlo) y usar ese dinero para comprar objetos o tickets para obtener premios de temporada!
+        </p>
+    </div>
+    <div id="footer">
+        Goat-Chan
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
