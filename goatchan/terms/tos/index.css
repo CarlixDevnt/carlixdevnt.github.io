@@ -180,7 +180,7 @@ header table {
 #terms h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(61, 255, 236);
-    width:100%;
+    width:55%;
 }
 #terms h2 {
     padding:5px 0px;
@@ -384,7 +384,7 @@ button:focus {
         width:90%;
     }
     #terms h1 {
-        width:100%;
+        width:55%;
     }
     #team h1 {
         width:25%;
