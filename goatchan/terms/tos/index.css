@@ -46,7 +46,7 @@ header table {
     width:100%;
 }
 #logo {
-    width:100%;
+    width:60%;
 }
 #navigation {
     width:80%;
@@ -180,7 +180,7 @@ header table {
 #terms h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(61, 255, 236);
-    width:500%;
+    width:100%;
 }
 #terms h2 {
     padding:5px 0px;
@@ -384,7 +384,7 @@ button:focus {
         width:90%;
     }
     #terms h1 {
-        width:50%;
+        width:100%;
     }
     #team h1 {
         width:25%;
