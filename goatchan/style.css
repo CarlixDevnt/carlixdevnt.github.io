@@ -133,6 +133,11 @@ input:checked + .slider:before {
     background-color: #7a7a7a;
 }
 
+/* Adjust hero background color for dark mode */
+.dark-theme .hero {
+    background-color: #333333; /* Change the background color to #333333 in dark mode */
+}
+
 /* Headers have the same color in both themes */
 h1, h2, h3, h4, h5, h6 {
     color: #3dffec;
