@@ -1,6 +1,7 @@
 // Toggle dark and white themes
 const themeToggle = document.getElementById("theme-toggle");
+const body = document.body;
 
 themeToggle.addEventListener("change", () => {
-    document.body.classList.toggle("dark-theme");
+    body.classList.toggle("dark-theme", themeToggle.checked);
 });
