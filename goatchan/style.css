@@ -46,64 +46,24 @@ nav {
     color: #3dffec;
 }
 
-/* Theme toggle switch */
+/* Theme toggle button */
 .theme-toggle {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
-}
-
-.theme-text {
-    margin-right: 10px;
     color: white;
+    font-size: 24px;
+    transition: color 0.3s;
 }
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-
-.switch input[type="checkbox"] {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-    border-radius: 20px;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    transition: .4s;
-    border-radius: 50%;
-}
-
-input:checked + .slider {
-    background-color: #3dffec;
-}
-
-input:checked + .slider:before {
-    transform: translateX(20px);
+.theme-toggle:hover {
+    color: #3dffec;
 }
 
 /* Hero section */
@@ -135,7 +95,7 @@ input:checked + .slider:before {
 
 /* Adjust hero background color for dark mode */
 .dark-theme .hero {
-    background-color: #333333; /* Change the background color to #333333 in dark mode */
+    background-color: #333333;
 }
 
 /* Headers have the same color in both themes */
