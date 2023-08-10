@@ -22,18 +22,18 @@ nav {
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-right: auto;
 }
 
 .menu {
     display: flex;
     gap: 20px;
+    margin-left: auto;
 }
 
 .menu a {
@@ -46,22 +46,19 @@ nav {
     color: #3dffec;
 }
 
-
 /* Theme toggle switch */
 .theme-toggle {
-    display: flex;
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
+    display: flex;
+    align-items: center;
 }
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    .menu {
-        margin-left: auto;
-        gap: 10px;
-    }
+.theme-text {
+    margin-right: 10px;
+    color: white;
 }
 
 .switch {
