@@ -21,7 +21,6 @@ nav {
     background-color: #333;
     color: #fff;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
@@ -29,12 +28,40 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    margin-right: auto;
 }
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #3dffec;
+}
+
 
 /* Theme toggle switch */
 .theme-toggle {
     display: flex;
-    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .menu {
+        margin-left: auto;
+        gap: 10px;
+    }
 }
 
 .switch {
@@ -75,7 +102,7 @@ nav {
 }
 
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #3dffec;
 }
 
 input:checked + .slider:before {
