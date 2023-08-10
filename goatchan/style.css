@@ -104,12 +104,13 @@ input:checked + .slider:before {
     color: white;
 }
 
-.dark-theme h1,
-.dark-theme h2,
-.dark-theme h3,
-.dark-theme h4,
-.dark-theme h5,
-.dark-theme h6 {
+/* Adjust hero background color for dark mode */
+.dark-theme .hero {
+    background-color: #333333;
+}
+
+/* Headers have the same color in both themes */
+h1, h2, h3, h4, h5, h6 {
     color: #3dffec;
 }
 
