@@ -1,7 +1,12 @@
-// Toggle dark and white themes
+// Toggle light and dark themes
 const themeToggle = document.getElementById("theme-toggle");
 const body = document.body;
 
-themeToggle.addEventListener("change", () => {
-    body.classList.toggle("dark-theme", themeToggle.checked);
+themeToggle.addEventListener("click", () => {
+    body.classList.toggle("dark-theme");
+    if (body.classList.contains("dark-theme")) {
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+    } else {
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    }
 });
