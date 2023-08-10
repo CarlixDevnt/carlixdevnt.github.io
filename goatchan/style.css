@@ -66,6 +66,14 @@ nav {
     color: #3dffec;
 }
 
+.theme-toggle i.fa-sun {
+    color: black; /* Set sun icon color to black */
+}
+
+.theme-toggle i.fa-moon {
+    color: white; /* Set moon icon color to #3dffec */
+}
+
 /* Hero section */
 .hero {
     background-color: #f2f2f2;
